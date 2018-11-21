@@ -7,16 +7,16 @@ def create_an_array
 end
 
 def add_element_to_end_of_array(element)
-  array.push(element)
+  array.push
   
 end
 
-def add_element_to_start_of_array (element)
-  array.unshift(element)
+def add_element_to_start_of_array(array, element)
+  array.unshift
 end
 
-def remove_element_from_end_of_array(array,element)
-  array.pop()
+def remove_element_from_end_of_array(element)
+  array.po
 end
 
 def remove_element_from_start_of_array(array)
